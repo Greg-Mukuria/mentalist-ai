@@ -16,16 +16,16 @@ export function Footer() {
 							rel='noreferrer'
 							className='font-medium underline underline-offset-4'
 						>
-							Open AI
+							Sirius AI
 						</Link>
 						. Hosted on{' '}
 						<Link
-							href='https://vercel.com'
+							href='https://sword.co.ke'
 							target='_blank'
 							rel='noreferrer'
 							className='font-medium underline underline-offset-4'
 						>
-							Vercel
+							Sword
 						</Link>
 					</p>
 				</div>

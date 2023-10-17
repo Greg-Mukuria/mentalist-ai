@@ -1,4 +1,5 @@
 'use client';
+
 import { Button } from '@/components/ui/Button';
 
 export default function ActionButtons() {
@@ -7,7 +8,7 @@ export default function ActionButtons() {
 	};
 
 	const goToGithub = () => {
-		window.open('https://github.com/fernandops26/mentalist-ai', '_blank', 'noopener');
+		window.open('https://github.com/siriusAI', '_blank', 'noopener');
 	};
 
 	return (

@@ -105,9 +105,9 @@ export const restoreProject = (dataState: ImportedDataState) => {
 };
 
 const obj = {
-	openAI: 'mentalist-openai-key',
-	model: 'mentalist-model',
-	mode: 'mentalist-mode',
+	openAI: 'amber-siriusai-key',
+	model: 'siriusai-model',
+	mode: 'siriusai-mode',
 };
 
 export const saveLocalConfigKey = (key: keyof typeof obj, value: string): void => {

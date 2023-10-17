@@ -11,7 +11,7 @@ export const nodeTypes = {
 export const initialNodes: Array<Node> = [
 	{
 		id: 'root',
-		data: { text: 'AI conquering the world', type: MAIN_TOPIC },
+		data: { text: 'Start mapping', type: MAIN_TOPIC },
 		position: { x: 0, y: 0 },
 		type: 'rootNode',
 	},

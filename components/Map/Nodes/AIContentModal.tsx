@@ -26,8 +26,8 @@ export default function AIContentModal({ id, isOpen, onChangeOpen, children }: A
 		if (!token) {
 			toast({
 				variant: 'destructive',
-				title: 'You need to configure your OpenAI API key first',
-				description: 'Use the hamburger menu located at the top of the page and configure your OpenAI API key.',
+				title: 'You need to configure your SiriusAI API key first',
+				description: 'Use the hamburger menu located at the top of the page and configure your SiriusAI API key.',
 			});
 
 			return;

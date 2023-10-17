@@ -53,25 +53,25 @@ export function Menu() {
 					<IconComponent name='menu' className='w-4 h-4' />
 				</MenubarTrigger>
 				<MenubarContent>
-					<MenubarItem onClick={() => setOpen(true)}> Manage OpenAI ApiKey</MenubarItem>
+					<MenubarItem onClick={() => setOpen(true)}> Manage SiriusAI ApiKey</MenubarItem>
 
 					<MenubarSeparator />
 					<MenubarItem onClick={onLoad}>Open</MenubarItem>
 					<MenubarItem onClick={onExport}>Export</MenubarItem>
 					<MenubarSeparator />
 					<MenubarItem>
-						<Link href='https://twitter.com/fernandops26' target='_blank' rel='noreferrer' className='w-full'>
-							Follow Updates
+						<Link href='https://twitter.com/siriusAI' target='_blank' rel='noreferrer' className='w-full'>
+							x.com
 						</Link>{' '}
 					</MenubarItem>
 					<MenubarItem>
 						<Link
-							href='https://github.com/fernandops26/mentalist-ai'
+							href='https://github.com/sirius-ai'
 							target='_blank'
 							rel='noreferrer'
 							className='w-full'
 						>
-							Github
+							Docs (Coming Soon)
 						</Link>{' '}
 					</MenubarItem>
 				</MenubarContent>

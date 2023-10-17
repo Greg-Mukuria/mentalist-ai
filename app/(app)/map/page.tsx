@@ -21,12 +21,12 @@ export default async function MapPage() {
 					<p className='text-sm text-slate-400 mt-3'>
 						Follow on{' '}
 						<Link
-							href='https://twitter.com/fernandops26'
+							href='https://twitter.com/siriusAI'
 							target='_blank'
 							rel='noreferrer'
 							className='underline underline-offset-4'
 						>
-							Twitter
+							x.com
 						</Link>{' '}
 						for updates
 					</p>
